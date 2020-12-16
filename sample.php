@@ -1,7 +1,7 @@
-<?php require '../header.php'; ?>
+<?php require 'header1.php'; ?>
 <p>お名前を入力してください。</p>
 <form action="sample-output.php" method="post">
 <input type="text" name="user">
 <input type="submit" value="確定">
 </form>
-<?php require '../footer.php'; ?>
+<?php require 'footer1.php'; ?>
