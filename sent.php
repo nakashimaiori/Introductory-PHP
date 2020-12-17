@@ -18,20 +18,19 @@
   </div>
 
   <div class="main">
-    <div class="contact-form">
-      <div class="form-title">お問い合わせ</div>
-      <form method="post" action="sent.php">
-        <div class="form-item">名前</div>
+    <div class="thanks-message">お問い合わせいただきありがとうございます。</div>
+    <div class="display-contact">
 
-        <input type="text" name="name">
-        <div class="form-item">内容</div>
+      <div class="form-title">入力内容</div>
 
-        <textarea name="body"></textarea>
-        <input type="submit" value ="送信">
-        
-
-      </form>
+      <div class="form-item">■ 名前</div>
+      <!-- nameを受け取りecho -->
+      <?php echo $_POST ['name']; ?>
+      <div class="form-item">■ 内容</div>
+      <!-- bodyを受け取りecho -->
+      <?php echo $_POST ['body'] ; ?>
     </div>
+
   </div>
 
   <div class="footer">
@@ -43,10 +42,9 @@
       </ul>
     </div>
     <div class="like-box">
-      <iframe src="https://www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fpages%2FProgate%2F742679992421539&amp;show_faces=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:300px;" allowTransparency="true"></iframe>
+      <iframe src="https://www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fpages%2FProgate%2F742679992421539" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:300px;" allowTransparency="true"></iframe>
     </div>
   </div>
-
   <style>
     * {
   padding: 0;
