@@ -7,9 +7,7 @@
 </head>
 <body>
   <?php
-   print (2*(98+2));
-   echo '<br>';
-   print(date('y年 m月 d日 l'));
+   print(date('20y年 m月 d日 l'));
   ?>
 
 </body>
