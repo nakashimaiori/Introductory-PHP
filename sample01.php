@@ -7,7 +7,10 @@
 </head>
 <body>
   <?php
-   print ('PHP勉強中');
+   print (2*(98+2));
+   echo '<br>';
+   print(date('y年 m月 d日 l'));
   ?>
+
 </body>
 </html>
