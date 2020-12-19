@@ -8,9 +8,9 @@
 <body>
   <?php
    print(date('20y年 m月 d日 l'));
-   print(date('s'))
+   echo '<br>';
+   print(date('s'));
    
-  ?>
   ?>
 
 </body>
