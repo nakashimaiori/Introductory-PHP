@@ -17,6 +17,7 @@
 
    echo '<br>';
 
+   //定数 上書きしても変わらない constant
    const MAX = 'テスト';
 
    echo MAX;
