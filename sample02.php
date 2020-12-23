@@ -13,6 +13,14 @@
    $test_3 = $test_1 . $test_2;
 
    var_dump($test_3);
+
+
+   echo '<br>';
+
+   const MAX = 'テスト';
+
+   echo MAX;
+
   ?>
 
 
