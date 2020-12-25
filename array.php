@@ -7,9 +7,10 @@
 </head>
 <body>
   <?php
-   $array = [1,2,3];
+   $array = [１,2,3];
 
-   echo $array[1];
+   var_dump($array);
+
   ?>
 
 
