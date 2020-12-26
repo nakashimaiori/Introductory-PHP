@@ -17,6 +17,15 @@
    echo '<pre>'; 
 
    echo $array[1][1];
+
+   echo '<br>';
+   $array_member = [
+       'name' => '本田',
+       'height' => '170',
+       'hobby' => 'サッカー'
+   ];
+
+   echo $array_member['hobby'];
   ?>
 
 
