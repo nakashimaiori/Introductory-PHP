@@ -16,6 +16,7 @@
    var_dump($array);
    echo '<pre>'; 
 
+   echo $array[1][1];
   ?>
 
 
