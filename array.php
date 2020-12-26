@@ -21,11 +21,14 @@
    echo '<br>';
    $array_member = [
        'name' => '本田',
-       'height' => '170',
+       'height' => 170,
        'hobby' => 'サッカー'
    ];
 
    echo $array_member['hobby'];
+
+   var_dump($array_member);
+   echo '<pre>';
   ?>
 
 
