@@ -7,9 +7,14 @@
 </head>
 <body>
   <?php
-   $array = [１,2,3];
+   $array = [
+       ['赤','青','黄'],
+       ['緑','紫','黒']
+   ];
 
+   echo '<pre>';
    var_dump($array);
+   echo '<pre>'; 
 
   ?>
 
