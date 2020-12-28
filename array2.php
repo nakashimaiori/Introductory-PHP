@@ -20,6 +20,18 @@
 
   echo $array_member_2 ['香川']['height'];
 
+
+  $signal = 'blue';
+
+  if ($signal === 'red'){
+      echo '止まれ';
+  } else if($signal === 'yellow'){
+      echo '一旦停止';
+  } else {
+      echo '進む';
+  }
+
+
   ?>
 
 
